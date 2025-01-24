@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@job-app/prisma": ["libs/prisma/src/index.ts"]
+      "@job-app/nestjs": ["libs/nestjs/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
