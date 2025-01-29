@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "proto:generate": "protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=./types ./proto/*.proto --ts_proto_opt=nestJs=true"
+    "proto:generate": "protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=./types ./proto/*.proto --ts_proto_opt=nestJs=true",
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
@@ -54,8 +55,10 @@
     "@types/passport-jwt": "^4.0.1",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.0.0",
+    "husky": "^9.1.7",
     "jest": "^29.7.0",
     "jest-environment-node": "^29.7.0",
+    "lint-staged": "^15.4.3",
     "nx": "20.3.2",
     "passport-jwt": "^4.0.1",
     "prettier": "^2.6.2",
